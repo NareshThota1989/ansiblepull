@@ -1,0 +1,6 @@
+- hosts: all
+  vars:
+    name: thota naresh
+  tasks:
+    - debug:
+        msg: " my name is:{{name}}"
